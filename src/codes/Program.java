@@ -14,9 +14,8 @@ public class Program {
 		board = new Board(9);
 		
 		// Load and Solve
-		//board.loadMedium();
+		board.loadMedium();
 		//board.loadHard();
-		board.loadHard();
 		board.display();
 		board.runSolutions();
 		board.display();
